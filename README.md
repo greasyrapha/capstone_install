@@ -4,19 +4,21 @@
 
 Tested in ubuntu 18.04.06 LTS  
 
-Open terminal
 ```
+$ sudo git clone https://github.com/greasyrapha/capstone_install
+
 $ cd capstone_install
 
 $ ./first.sh
+
+$ sudo reboot
 ```
-when finished, close terminal and relaunch
+Rebooting..
 ```
 $ cd capstone_install
 
 $ ./second.sh
 ```
- 
 Run Gazebo (no roscore needed)
 ```
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
@@ -29,3 +31,4 @@ Control Turtlebot with Keyboard (using WASDX)
 ```
 $roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
+ggs
