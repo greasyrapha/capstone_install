@@ -19,11 +19,4 @@ sudo apt-get install -y liblapack-dev liblapacke-dev libeigen3-dev gfortran
 sudo apt-get install -y libhdf5-dev protobuf-compiler
 sudo apt-get install -y libprotobuf-dev libgoogle-glog-dev libgflags-dev
 
-python -m pip install --upgrade pip
-python3 -m pip install --upgrade pip
-
-pip3 install rospkg scikit-build cmake pandas matplotlib tqdm seaborn pyrealsense2 opencv-python==4.5.5.64
-
-pip3 install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1 --extra-index-url https://download.pytorch.org/whl/cu113
-
 exit 0
